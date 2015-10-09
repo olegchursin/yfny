@@ -145,11 +145,11 @@ td span {
 }
 
 .agenda-table {
-  width: 56%;
+  width: 100%;
 }
 
 table {
-  width: 56%;
+  width: 100%;
   margin: 40px 0;
 }
 
@@ -176,7 +176,7 @@ td {
   font-weight: 300;
   color: white;
   text-transform: uppercase;
-  margin-left: 33.33%
+  padding-left: 33.33%
 }
 
 .register-header a {
@@ -221,7 +221,11 @@ section {
 
 #section-wrapper {
   width: 100%;
-  margin-left: 33.33%;
+  padding-left: 33.33%;
+}
+
+#section-wrapper p {
+  width: 100%;
 }
 
 .quote {
@@ -236,7 +240,7 @@ section {
   font-weight: 300;
   color: white;
   text-transform: uppercase;
-  margin-left: 33.33%
+  padding-left: 33.33%
 }
 
 .save-the-date {
@@ -248,7 +252,7 @@ section {
 }
 
 #map {
-  width: 56%;
+  width: 80%;
   border-top: 1px solid #ef5250;
   border-bottom: 1px solid #ef5250;
   padding: 10px 0 7px;
