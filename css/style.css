@@ -189,8 +189,9 @@ td {
   background: none;
 }
 
-
-/*/////  FORM  /////*/
+  /*///////////////////
+ //////  FORM  ///////
+///////////////////*/
 
 .form-field {
   font-family: Roboto, sans-serif;
@@ -215,7 +216,7 @@ section {
 }
 
 #section-wrapper {
-  width: 56.66%;
+  width: 100%;
   margin-left: 33.33%;
 }
 
