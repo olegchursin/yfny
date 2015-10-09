@@ -144,8 +144,12 @@ td span {
   margin: 40px 0;
 }
 
+.agenda-table {
+  width: 56%;
+}
+
 table {
-  width: 100%;
+  width: 56%;
   margin: 40px 0;
 }
 
@@ -244,6 +248,7 @@ section {
 }
 
 #map {
+  width: 56%;
   border-top: 1px solid #ef5250;
   border-bottom: 1px solid #ef5250;
   padding: 10px 0 7px;
