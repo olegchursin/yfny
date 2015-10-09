@@ -160,11 +160,6 @@ td {
   padding: 30px 0 0;
 }
 
-#footer-rcny-logo img {
-  width: 100px;
-  displa: block;
-}
-
 .register-header {
   width: 100%;
   padding: 30px 0;
@@ -257,6 +252,7 @@ footer {
   width: 100%;
   background: #096064;
   text-align: center;
+  margin-top: 60px;
 }
 
 footer a {
@@ -287,9 +283,21 @@ footer a:hover {
   width: 250px;
 }
 
+.footer-info {
+  text-align: center;
+  color: white;
+  font-size: 0.75em;
+  padding-bottom: 20px;
+}
+
 .copyright {
   font-size: 0.75em;
   color: white;
+}
+
+#footer-rcny-logo img {
+  width: 100px;
+  display: inline-block;
 }
 
 .dev p {
