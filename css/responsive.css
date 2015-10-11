@@ -1,7 +1,11 @@
 @media only screen and (max-width: 950px) {
   
-  #section-wrapper {
+  .section-wrapper {
   padding-left: 25%;
+  }
+
+   .register-header p {
+    padding-left: 25%;
   }
 
   .quote p {
@@ -26,16 +30,17 @@
 
 @media only screen and (max-width: 750px) {
   
-  #section-wrapper {
+  .section-wrapper {
+    padding-left: 15%;
+  }
+
+  .register-header p {
     padding-left: 15%;
   }
 
   .quote p {
     padding-left: 15%
   }
-}
-
-@media only screen and (max-width: 750px) {
   
   .important-event {
     font-size: 0.75em;
@@ -53,9 +58,9 @@
   }
 }
 
-  @media only screen and (max-width: 555px) {
+@media only screen and (max-width: 555px) {
   
-  #section-wrapper {
+ .section-wrapper {
     padding-left: 7%;
   }
 
@@ -63,8 +68,16 @@
     padding-left: 7%;
   }
 
+  .save-the-date {
+    font-size: 0.75em;
+  }
+
   #desktop-navbar nav a {
     width: 20%;
+  }
+
+  .register-header p {
+    padding-left: 7%;
   }
 
   h1 {
@@ -78,11 +91,35 @@
   p {
     font-size: 0.9em;
   }
+
+  table {
+    font-size: 0.9em;
+  }
 }
 
 @media only screen and (max-width: 455px) {
   
   .important-event {
     font-size: 0.7em;
+  }
+
+  .section-wrapper h3 {
+    font-size: 0.7em;
+  }
+
+}
+
+@media only screen and (max-width: 425px) {
+
+  #desktop-navbar nav a {
+    width: 22%;
+  }
+
+    h1 {
+    font-size: 1em;
+  }
+  
+  .important-event {
+    font-size: 0.6em;
   }
 }
