@@ -209,8 +209,9 @@ section {
 }
 
 #marquee-wrapper {
+  background: #b2ebf2;
   display: block;
-  margin: 0 auto;
+  margin: 60px auto 0;
 }
 
 #marquee img {
