@@ -125,6 +125,7 @@ td span {
   width: 100%;
   opacity: 0.95;
   z-index: 2;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
 
 #desktop-navbar nav a {
@@ -345,4 +346,8 @@ footer a:hover {
 
 .additional-img img {
   width: 49.75%;
+}
+
+.project-logo {
+  width: 250px;
 }
